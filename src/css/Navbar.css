@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+div {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  /* Style untuk tautan "Login" dan "Sign Up" */
+  li:nth-last-child(-n+2) {
+    float: right;
+  }
+  
+  /* Style untuk tautan "Cart" */
+  li:nth-last-child(3) {
+    float: right;
+  }
+  
+  /* Style untuk tautan "Room&Suite" */
+  li:nth-child(3) a {
+    border-right: 2px solid white;
+  }
+  
+  /* Optional: Style untuk menonaktifkan link yang tidak aktif */
+  a[href="#"] {
+    cursor: not-allowed;
+    color: #888;
+  }
+  
