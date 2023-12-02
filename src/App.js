@@ -1,18 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from './logo.svg';
 import './App.css';
-import NavbarComponent from './components/NavbarComponent';
-import Footer from './components/Footer';
-import CardsBody from './components/Cards';
+import NavbarComponent from './components/Navbar/NavbarComponent';
+import Slider from './components/Slider/Slider';
+import CardsBody from './components/Crads/Cards';
+import Founder from './components/Founder/Founder';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
       <NavbarComponent />
+      <Slider/>
       <CardsBody />
-  
-
+      <Founder />
       <Footer />
       
       <header className="App-header">
