@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavbarComponent from './components/Navbar/NavbarComponent';
 import Slider from './components/Slider/Slider';
-import CardsBody from './components/Crads/Cards';
+import Cards from './components/Crads/Cards';
 import Founder from './components/Founder/Founder';
 import Footer from './components/Footer/Footer';
+import Login from './components/Login/Login';
 
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
     <div className="App">
       <NavbarComponent />
       <Slider/>
-      <CardsBody />
+      <Cards />
       <Founder />
       <Footer />
-      
+  
       <header className="App-header">
       </header>
     </div>
